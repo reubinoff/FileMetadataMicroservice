@@ -18,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/reubinoff/FileMetadataMicroservice/issues"
   },
-  "homepage": "https://github.com/reubinoff/FileMetadataMicroservice#readme"
+  "homepage": "https://github.com/reubinoff/FileMetadataMicroservice#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "lodash": "^4.17.4",
+    "morgan": "^1.8.2",
+    "winston": "^2.3.1"
+  }
 }
