@@ -36,6 +36,10 @@ build/Release
 node_modules/
 jspm_packages/
 
+
+#db backups
+db/backups
+
 # Typescript v1 declaration files
 typings/
 
