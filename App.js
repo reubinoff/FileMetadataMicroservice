@@ -14,7 +14,7 @@ logger.info("Application started!")
 
 // set static pages
 const pages_path = __dirname + "/www" 
-app.set('view engine', 'jade')
+app.set('view engine', 'pug')
 app.set('views', pages_path)
 logger.log(express.static(pages_path))
 
@@ -23,6 +23,13 @@ logger.log(express.static(pages_path))
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
+
+// index page
+app.get('/', function(req, res){
+  res.render('index', {
+    title: 'my main page'
+  })
+})
 
 
 
