@@ -39,6 +39,7 @@ jspm_packages/
 
 #db backups
 db/backups
+db/db_config.js
 
 # Typescript v1 declaration files
 typings/
