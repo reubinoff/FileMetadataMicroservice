@@ -1,0 +1,22 @@
+{
+  "name": "file_metadata_microservice",
+  "version": "1.0.0",
+  "description": "Get data on uploaded file",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reubinoff/FileMetadataMicroservice.git"
+  },
+  "keywords": [
+    "freecodecamp"
+  ],
+  "author": "Moshe Reubinoff",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/reubinoff/FileMetadataMicroservice/issues"
+  },
+  "homepage": "https://github.com/reubinoff/FileMetadataMicroservice#readme"
+}
